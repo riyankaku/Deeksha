@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.donate-heading{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+.donate-form{
+    margin-bottom: 50px;
+}
+.p51{
+    font-size: 35px;
+    font-family: "coda";
+     color: #da1a5d;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.donate-heading::after{
+    content: "";
+    position: absolute;
+    left:30%;
+    width: 40%;
+    height: 2px;
+    bottom: -2px;
+    background-color:#f49921;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: "coda";
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.input-part #add{
+    width:100%;
+}
+.input-part{
+    margin-bottom:8px;
+}
+.input-part input{
+    width: 100%;
+   
+    border: none;
+    height: 35px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #cacaca; 
+    text-indent: 10px;
+}
+.donate-detail{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:30px 50px;
+   
+}
+
+.donate3 button{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #da1a5d;
+    border: 2px solid #da1a5d;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.donate3 button:hover {
+    background-color:#f49921;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+.wide-select {
+    width:185px; /* Set the desired width */
+    background-color: #cacaca;
+    height:35px;
+    border: none;
+    text-indent: 10px;
+}
+.p52,.p53,.p54{
+    font-family: "poppins";
+    font-family: 18px;
+}
+
+.d-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f49921;
+    border: 2px solid #da1a5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donation{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+/* source */
+.source{
+    margin-bottom: 50px;
+   
+}
+.source-detail{
+    background-color: #cacaca;
+    padding: 20px 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* display: flex;
+    justify-content: center; */
+}
+.p59{
+    font-size: 20px;
+    font-family: "philosopher";
+
+}
+.th-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.p60{
+    font-family: "Kristi";
+    font-weight: 600;
+    font-size: 25px;
+    color: #da1a5d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media screen  and (max-width:1440px){
+    /* donate */
+    .donate-heading::after{
+        content: "";
+        position: absolute;
+        left:28%;
+        width:45%;
+        height: 2px;
+        bottom: -2px;
+        background-color:#f49921;
+    }
+    .input-part #add{
+        width:100%;
+    }
+    .wide-select {
+        width:150px; /* Set the desired width */
+        background-color: #cacaca;
+        height:35px;
+        border: none;
+        text-indent: 10px;
+    }
+    .donate3 button{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #da1a5d;
+        border: 2px solid #da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    .donate3 button:hover {
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    
+}
+@media screen  and (max-width:1199px){
+    /* donate */
+    .donate-heading::after{
+        content: "";
+        position: absolute;
+        left:23%;
+        width:55%;
+        height: 2px;
+        bottom: -2px;
+        background-color:#f49921;
+    }
+    .input-part #add{
+        width:100%;
+    }
+    .p52,.p53,.p54{
+        font-size: 14px;
+    }
+    .wide-select {
+        width:130px; /* Set the desired width */
+        background-color: #cacaca;
+        height:35px;
+        border: none;
+        text-indent: 10px;
+    }
+    
+}
+@media screen and (max-width:991px) {
+     /* donate */
+     .donate-heading::after{
+        content: "";
+        position: absolute;
+        left:10%;
+        width:80%;
+        height: 2px;
+        bottom: -2px;
+        background-color:#f49921;
+    }
+    .input-part #add{
+        width:95%;
+    }
+    .p52,.p53,.p54{
+        font-size: 14px;
+    }
+    .wide-select {
+        width:130px; /* Set the desired width */
+        background-color: #cacaca;
+        height:35px;
+        border: none;
+        text-indent: 10px;
+    }
+    .p51{
+        font-size: 30px;
+    }
+    .donate1{
+        /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+    .donate2{
+        /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
+      
+        
+       
+    }
+    .donate3{
+      margin-bottom: 30px;
+      
+        
+       
+    }
+    .donate-detail{
+        box-shadow: 0px 0px 0px 0px;
+    }
+    .wide-select {
+        width:180px; /* Set the desired width */
+        background-color: #cacaca;
+        height:35px;
+        border: none;
+        text-indent: 10px;
+    }
+    .donate1{
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+    .donate2{
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      
+        
+       
+    }
+    /* source */
+    .input-section{
+        margin-bottom: 30px;
+    }
+    .p60{
+        text-align: center;
+       
+    }
+    
+}
+@media screen and (max-width:575px) {
+    .donate1{
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+    .donate2{
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      
+        
+       
+    }
+    .donate1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .donate2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .wide-select {
+        width:180px; /* Set the desired width */
+        background-color: #cacaca;
+        height:35px;
+        border: none;
+        text-indent: 10px;
+    }
+    label{
+        font-size: 16px;
+    }
+    .donate3 button{
+        display: inline-block;
+        padding: 15px 8px;
+        font-size: 18px;
+        color: #da1a5d;
+        border: 2px solid #da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    .donate3 button:hover {
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    .donate3 a{
+        font-size: 14px;
+    }
+    .input-part input{
+        width:100%;
+    }
+    .input-part #add{
+        width:100%;
+    }
+    .d-icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #f49921;
+        border: 2px solid #da1a5d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .p55{
+    font-size: 12px;
+   }    
+   .p56{
+    font-size: 12px;
+   }
+   .last-icon{
+    text-align: center;
+    padding: 0 !important;
+   }
+    .p51{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:479px) {
+    .wide-select {
+        width:100px; /* Set the desired width */
+        background-color: #cacaca;
+        height:35px;
+        border: none;
+        text-indent: 10px;
+    }
+    .donate-heading::after{
+        content: "";
+        position: absolute;
+        left:20%;
+        width:60%;
+        height: 2px;
+        bottom: -2px;
+        background-color:#f49921;
+    }
+    
+}

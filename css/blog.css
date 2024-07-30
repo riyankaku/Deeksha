@@ -1,0 +1,1538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navpart */
+.navbar{
+	
+	
+	position:-webkit-sticky;
+	
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    background-color: #f49921 !important;
+    /* transition: 0.3s; */
+    transform: translateX(-20px,20px);
+    transition: all 0.5s ease;
+
+  }
+  .navbar{
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);  
+}
+
+.navbar-brand img{
+    width: 60px;
+} 
+.navbar-nav .nav-item{
+    margin-left:30px;
+}
+.active{
+    position: relative;
+    color: #da1a5d!important;
+}
+
+.nav-link:hover{
+    color: #da1a5d!important;
+}
+.nav-link{
+    font-family: "poppins";
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.s2{
+  
+ font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+}
+
+
+.dropdown-item{
+    font-size: 18px;
+    font-family: "poppins";
+    text-transform: uppercase;
+    
+   
+}
+.dropdown-item:hover{
+    color: #da1a5d !important;
+}
+/* footer */
+.footer{
+    background-color: #f49921;
+    padding-top: 50px;
+    border-top:2px solid #da1a5d;
+}
+.s11,.s13,.s23,.s19{
+    font-weight: 400;
+    font-family: "coda";
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+ .s12{
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+   
+
+}
+.text1{
+    margin-bottom:20px ;
+}
+.input-row input{
+    width: 70%;
+    border: none;
+    background-color: #cacaca;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 20px;
+    text-indent: 10px;
+
+}
+input::placeholder{
+    font-size: 14px;
+    font-family: "poppins";
+}
+.btn5{
+    margin-bottom:50px;
+}
+.btn5 a{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.s14{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    padding-bottom:5px;
+}
+.s15{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    padding-bottom:5px;
+}
+.s16{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    padding-bottom:5px;
+}
+.text2{
+    position: relative;
+    margin-bottom: 15px;
+}
+.text2::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -2px;
+    width:100%;
+    height: 1px;
+    background-color:black;
+}
+
+.s18{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.ac-2{
+    position: relative;
+    margin-bottom: 15px;
+}
+.ac-2::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -2px;
+    width:100%;
+    height: 2px;
+    background-color:black;
+
+}
+.s20{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.s21,.s22,.so{
+    font-size:16px ;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.know-more-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color:#da1a5d;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+.know-more-button:hover {
+    background-color:#f49921;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+.recent-activities,.post{
+    display: flex;
+    flex-direction: column;
+}
+.ac-2{
+    width: 65%;
+}
+.text2{
+    width: 65%;
+}
+ /*blog heading */
+ .blog-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:30px;
+    padding-top: 30px;
+   
+}
+
+.p35{
+    font-family: "coda";
+    font-size: 30px;
+    color:black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* Blog part */
+.blog-part{
+    margin-bottom:100px;
+}
+.img-blog img{
+    width: 400px;
+    margin-bottom: 15px;
+    transition: transform 0.5s ease;
+   
+}
+.img-blog img:hover {
+     transform: scale(1.1)  translateX(10px); 
+   
+  
+  }
+
+.img-blog{
+    width: 400px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-blog{
+    position: relative;
+    margin-bottom:70px;
+}
+.up-img{
+   
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+
+.item{
+    width:80%;
+}
+.show{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color:white;
+    background-color:#da1a5d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    border-radius:5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: none;
+   
+}
+.hide {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#da1a5d;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: none;
+}
+.show:hover{
+    background-color:#f49921;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform:translateY(-3px) ;
+}
+
+
+.hide:hover {
+    background-color:#f49921;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+.p36 i{
+    padding: 5px;
+}
+.up-content img{
+   width: 130px;
+}
+.upper2{
+     background-color: #323232; 
+  height:400px;
+  width: 48%;
+  padding: 15px 20px;
+}
+.middile2{
+   
+    background-color: #323232; 
+    height:400px;
+    width: 48%;
+    padding: 15px 20px;
+}
+.upper2-heading{
+    position: relative;
+   
+}
+.middile2-heading{
+    position: relative;
+   
+}
+
+.upper2-heading::after{
+    content: "";
+    position: absolute;
+    bottom:-2px;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    background-color: #cacaca;
+}
+.p40{
+    color: white;
+    font-weight: "coda";
+    font-size: 25px;
+}
+.p39{
+    color: white;
+    font-family: "philosopher";
+   
+    font-size: 18px;
+}
+.middile2 i{
+    color: white;
+    padding: 5px;
+}
+.p41{
+    color: white;
+    font-family:"philosopher";
+    font-size: 20px;
+}
+
+.middile2-heading::after{
+    content: "";
+    position: absolute;
+    bottom:-2px;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    background-color: #cacaca;
+}
+.p42{
+    color: white;
+    font-weight: "coda";
+    font-size: 25px;
+}
+.p36{
+    font-size: 13px;
+    font-family: "poppins";
+   
+}
+.p34{
+    font-family: "poppins";
+    font-size: 17px;
+    line-height:30px;
+    transition: 0.3s;
+    
+}
+.p37{
+    font-family: "Philosopher";
+    font-size:18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.blog-content1{
+    margin-bottom: 100px;
+}
+
+#content3,#content2,#content1{
+    display: none;
+}
+.item{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#323232;
+    color: white;
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+/* footer-last */
+.f-text{
+    display: flex;
+    justify-content: center;
+    background-color: #da1a5d;
+    padding: 20px 0px;
+}
+.s27{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: white;
+}
+/* media part */
+@media  screen and (max-width:1440px) {
+    /* blog part */
+    .blog-part{
+        margin-bottom:70px;
+    }
+    .img-blog img{
+        width: 300px;
+        margin-bottom: 15px;
+        transition: transform 0.5s ease;
+       
+    }
+    .img-blog img:hover {
+         transform: scale(1.1)  translateX(10px); 
+       
+      
+      }
+    
+    .img-blog{
+        width: 300px;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-blog{
+        position: relative;
+        margin-bottom: 70px;
+    }
+    .up-img{
+       
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+    
+    
+    .item{
+        width:80%;
+    }
+    .show{
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color:white;
+        background-color:#da1a5d;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        border-radius:5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+       
+    }
+    .hide {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+    }
+    .show:hover{
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform:translateY(-3px) ;
+    }
+    
+    
+    .hide:hover {
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    .p36 i{
+        padding: 5px;
+    }
+    .up-content img{
+       width: 130px;
+    }
+    .upper2{
+         background-color: #323232; 
+      height:380px;
+      width: 48%;
+      padding: 15px 20px;
+    }
+    .middile2{
+       
+        background-color: #323232; 
+        height:380px;
+        width: 48%;
+        padding: 15px 20px;
+    }
+    .upper2-heading{
+        position: relative;
+       
+    }
+    .middile2-heading{
+        position: relative;
+       
+    }
+    
+    .upper2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p40{
+        color: white;
+        font-weight: "coda";
+        font-size: 22px;
+    }
+    .p39{
+        color: white;
+        font-family: "philosopher";
+       font-size: 16px;
+    }
+    .middile2 i{
+        color: white;
+        padding: 5px;
+    }
+    .p41{
+        color: white;
+        font-family:"philosopher";
+        font-size: 16px;
+    }
+    
+    .middile2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p42{
+        color: white;
+        font-weight: "coda";
+        font-size: 25px;
+    }
+    .p36{
+        font-size: 14px;
+        font-family: "poppins";
+        text-align: center;
+       
+    }
+    .p34{
+        font-family: "poppins";
+        font-size: 14px;
+        line-height:25px;
+        transition: 0.3s;
+        
+    }
+    .p37{
+        font-family: "Philosopher";
+        font-size:13px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .blog-content1{
+        margin-bottom: 70px;
+    }
+    
+    #content3,#content2,#content1{
+        display: none;
+    }
+    .item{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        background-color:#323232;
+        color: white;
+        padding: 15px 20px;
+    }
+    
+    
+    
+    
+    
+    
+    /* footer-last */
+    .f-text{
+        display: flex;
+        justify-content: center;
+        background-color: #da1a5d;
+        padding: 20px 0px;
+    }
+    .s27{
+        font-size: 16px;
+        font-family: "poppins";
+        font-weight: 400;
+        color: white;
+    }
+   
+    /* footer */
+    .recent-activities,.post{
+        display: flex;
+        flex-direction: column;
+    }
+    .ac-2{
+        width: 75%;
+    }
+    .text2{
+        width: 75%;
+    }
+    .s12,.s14,.s18{
+        font-size: 14px;
+    }
+    .address{
+       display: flex;
+       flex-direction: column;
+     
+    }
+    .s22,.s21,.s20{
+        font-size: 14px;
+    }
+    
+    
+}
+@media  screen and (max-width:1199px) {
+    /* footer part */
+    .s20,.s21,.s22{
+        font-size: 12px;
+    }
+    .s18,.s14,.s12{
+        font-size: 12px;
+    }
+    .footer{
+        padding-top: 30px;
+    }
+    .btn5{
+        margin-bottom: 30px;
+    }
+    
+    /* blog part */
+    .blog-part{
+        margin-bottom:50px;
+    }
+    .img-blog img{
+        width: 280px;
+        margin-bottom: 15px;
+        transition: transform 0.5s ease;
+       
+    }
+    .img-blog img:hover {
+         transform: scale(1.1)  translateX(10px); 
+       
+      
+      }
+    
+    .img-blog{
+        width: 280px;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-blog{
+        position: relative;
+        margin-bottom: 70px;
+    }
+    .up-img{
+       
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+    
+    
+    .item{
+        width:80%;
+    }
+    .show{
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color:white;
+        background-color:#da1a5d;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        border-radius:5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+       
+    }
+    .hide {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+    }
+    .show:hover{
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform:translateY(-3px) ;
+    }
+    
+    
+    .hide:hover {
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    .p36 i{
+        padding: 5px;
+    }
+    .up-content img{
+       width: 130px;
+    }
+    .upper2{
+         background-color: #323232; 
+      height:380px;
+      width: 48%;
+      padding: 15px 20px;
+    }
+    .middile2{
+       
+        background-color: #323232; 
+        height:380px;
+        width: 48%;
+        padding: 15px 20px;
+    }
+    .upper2-heading{
+        position: relative;
+       
+    }
+    .middile2-heading{
+        position: relative;
+       
+    }
+    
+    .upper2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p40{
+        color: white;
+        font-weight: "coda";
+        font-size: 22px;
+    }
+    .p39{
+        color: white;
+        font-family: "philosopher";
+       font-size: 16px;
+    }
+    .middile2 i{
+        color: white;
+        padding: 5px;
+    }
+    .p41{
+        color: white;
+        font-family:"philosopher";
+        font-size: 16px;
+    }
+    
+    .middile2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p42{
+        color: white;
+        font-weight: "coda";
+        font-size: 25px;
+    }
+    .p36{
+        font-size: 14px;
+        font-family: "poppins";
+        text-align: center;
+       
+    }
+    .p34{
+        font-family: "poppins";
+        font-size: 14px;
+        line-height:20px;
+        transition: 0.3s;
+        
+    }
+    .p37{
+        font-family: "Philosopher";
+        text-align: center;
+        font-size:13px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .blog-content1{
+        margin-bottom: 70px;
+    }
+    
+    #content3,#content2,#content1{
+        display: none;
+    }
+    .item{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        background-color:#323232;
+        color: white;
+        padding: 15px 20px;
+    }
+    
+   
+}
+@media  screen and (max-width:991px) {
+     /* footer part */
+     .recent-activities{
+        margin-bottom: 20px;
+    }
+    /* blog-part */
+    .blog-part{
+        margin-bottom:30px;
+    }
+    .img-blog img{
+        width: 280px;
+        margin-bottom: 15px;
+        transition: transform 0.5s ease;
+       
+    }
+    .img-blog{
+        margin-bottom: 70px;
+    }
+    .img-blog img:hover {
+         transform: scale(1.1)  translateX(10px); 
+       
+      
+      }
+    
+    .img-blog{
+        width: 280px;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .img-blog{
+     position: relative; 
+    } 
+    .up-img{
+        /* position: relative; */
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+    
+    
+    .item{
+       display: flex;
+       flex-direction:column ;
+       width: 50%;
+    }
+    .show{
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color:white;
+        background-color:#da1a5d;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        border-radius:5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+       
+    }
+    .hide {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+    }
+    .show:hover{
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform:translateY(-3px) ;
+    }
+    
+    
+    .hide:hover {
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    .p36 i{
+        padding: 5px;
+    }
+    .up-content img{
+       width: 130px;
+    }
+    .upper2{
+         background-color: #323232; 
+      height:380px;
+      width: 48%;
+      padding: 15px 20px;
+    }
+    .middile2{
+       
+        background-color: #323232; 
+        height:380px;
+        width: 48%;
+        padding: 15px 20px;
+    }
+    .upper2-heading{
+        position: relative;
+       
+    }
+    .middile2-heading{
+        position: relative;
+       
+    }
+    
+    .upper2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p40{
+        color: white;
+        font-weight: "coda";
+        font-size: 22px;
+    }
+    .p39{
+        color: white;
+        font-family: "philosopher";
+       font-size: 16px;
+    }
+    .middile2 i{
+        color: white;
+        padding: 5px;
+    }
+    .p41{
+        color: white;
+        font-family:"philosopher";
+        font-size: 16px;
+    }
+    
+    .middile2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p42{
+        color: white;
+        font-weight: "coda";
+        font-size: 25px;
+    }
+    .p36{
+        font-size: 14px;
+        font-family: "poppins";
+        text-align: center;
+       
+    }
+    .p34{
+        font-family: "poppins";
+        font-size: 12px;
+        line-height:18px;
+        transition: 0.3s;
+        
+    }
+    .p37{
+        font-family: "Philosopher";
+        text-align: center;
+        font-size:13px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .blog-content1{
+        margin-bottom: 70px;
+    }
+    
+    #content3,#content2,#content1{
+        display: none;
+    }
+    .item{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        background-color:#323232;
+        color: white;
+        padding: 15px 20px;
+    }
+    
+   
+    
+}
+@media  screen and (max-width:767px) {
+      /* footer-last-part */
+      .s27{
+        font-size: 13px;
+        text-align: center;
+    
+       }
+       /* blog part */
+       .blog-part{
+        margin-bottom:30px;
+    }
+    .img-blog img{
+        width: 250px;
+        margin-bottom: 15px;
+        transition: transform 0.5s ease;
+       
+    }
+    .img-blog{
+        margin-bottom: 70px;
+    }
+    .img-blog img:hover {
+         transform: scale(1.1)  translateX(10px); 
+       
+      
+      }
+    
+    .img-blog{
+        width: 280px;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .img-blog{
+     position: relative; 
+    } 
+    .up-img{
+        /* position: relative; */
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+    
+    
+    .item{
+       display: flex;
+       flex-direction:column ;
+       width: 50%;
+    }
+    .show{
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color:white;
+        background-color:#da1a5d;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        border-radius:5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+       
+    }
+    .hide {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+    }
+    .show:hover{
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform:translateY(-3px) ;
+    }
+    
+    
+    .hide:hover {
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    .p36 i{
+        padding: 5px;
+    }
+    .up-content img{
+       width: 90px;
+    }
+    .upper2{
+         background-color: #323232; 
+      height:380px;
+      width: 48%;
+      padding: 15px 20px;
+    }
+    .middile2{
+       
+        background-color: #323232; 
+        height:380px;
+        width: 48%;
+        padding: 15px 20px;
+    }
+    .upper2-heading{
+        position: relative;
+       
+    }
+    .middile2-heading{
+        position: relative;
+       
+    }
+    
+    .upper2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p40{
+        color: white;
+        font-weight: "coda";
+        font-size: 18px;
+    }
+    .p39{
+        color: white;
+        font-family: "philosopher";
+       font-size: 14px;
+    }
+    .middile2 i{
+        color: white;
+        padding: 5px;
+    }
+    .p41{
+        color: white;
+        font-family:"philosopher";
+        font-size: 16px;
+    }
+    
+    .middile2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p42{
+        color: white;
+        font-weight: "coda";
+        font-size: 18px;
+    }
+    .p36{
+        font-size: 14px;
+        font-family: "poppins";
+        text-align: center;
+       
+    }
+    .p34{
+        font-family: "poppins";
+        font-size: 12px;
+        line-height:18px;
+        transition: 0.3s;
+        
+    }
+    .p37{
+        font-family: "Philosopher";
+        text-align: center;
+        font-size:13px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .blog-content1{
+        margin-bottom: 70px;
+    }
+    
+    #content3,#content2,#content1{
+        display: none;
+    }
+    .item{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        background-color:#323232;
+        color: white;
+        padding: 15px 20px;
+    }
+    
+      
+       
+       /* blog-heading */
+       .blog-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:10px;
+        padding-top: 10px;
+       
+    }
+    .know-more-button {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    .bth5 a{
+        font-size: 16px;
+    }
+       
+    
+}
+@media  screen and (max-width:575px) {
+      /* footer part */
+      .text2{
+        position: static;
+        margin-bottom: 0px;
+    }
+    
+    .ac-2{
+        position: static;
+        margin-bottom: 0px;
+    }
+    
+    .post{
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .post::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        background-color: black;
+        width: 100%;
+        height: 1px;
+    }
+    .recent-activities{
+        position: relative;
+    }
+    .recent-activities::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        background-color: black;
+        width: 100%;
+        height: 1px;
+    }
+    .address{
+        margin-bottom: 20px;
+    }
+    /* footer -last -part */
+    .s27{
+        font-size: 9px;
+    }
+    /* blog */
+    .blog-part{
+        margin-bottom:30px;
+    }
+    .img-blog img{
+        width: 250px;
+        margin-bottom: 15px;
+        transition: transform 0.5s ease;
+       
+    }
+    .img-blog{
+        margin-bottom: 50px;
+    }
+    .img-blog img:hover {
+         transform: scale(1.1)  translateX(10px); 
+       
+      
+      }
+    
+    .img-blog{
+        width: 280px;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .img-blog{
+     position: relative; 
+    } 
+    .up-img{
+        /* position: relative; */
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+    
+    
+    .item{
+       display: flex;
+       flex-direction:column ;
+       width: 50%;
+    }
+    .show{
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color:white;
+        background-color:#da1a5d;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        border-radius:5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+       
+    }
+    .hide {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+    }
+    .show:hover{
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform:translateY(-3px) ;
+    }
+    
+    
+    .hide:hover {
+        background-color:#f49921;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    .p36 i{
+        padding: 5px;
+    }
+    .up-content img{
+       width: 90px;
+    }
+    .upper2{
+         background-color: #323232; 
+         display: flex;
+         flex-direction: column;
+        
+      height:350px;
+      width: 100%;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+    }
+    .middile2{
+       
+        background-color: #323232; 
+        height:350px;
+        width:100%;
+        padding: 15px 20px;
+    }
+    .upper2-heading{
+        position: relative;
+       
+    }
+    .middile2-heading{
+        position: relative;
+       
+    }
+    
+    .upper2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p40{
+        color: white;
+        font-weight: "coda";
+        font-size: 18px;
+    }
+    .p39{
+        color: white;
+        font-family: "philosopher";
+       font-size: 14px;
+    }
+    .middile2 i{
+        color: white;
+        padding: 5px;
+    }
+    .p41{
+        color: white;
+        font-family:"philosopher";
+        font-size: 16px;
+    }
+    
+    .middile2-heading::after{
+        content: "";
+        position: absolute;
+        bottom:-2px;
+        left: 0;
+        height: 2px;
+        width: 50%;
+        background-color: #cacaca;
+    }
+    .p42{
+        color: white;
+        font-weight: "coda";
+        font-size: 18px;
+    }
+    .p36{
+        font-size: 14px;
+        font-family: "poppins";
+        text-align: center;
+       
+    }
+    .p34{
+        font-family: "poppins";
+        font-size: 10px;
+        line-height:18px;
+        transition: 0.3s;
+        
+    }
+    .p37{
+        font-family: "Philosopher";
+        text-align: center;
+        font-size:13px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .blog-content1{
+        margin-bottom: 50px;
+    }
+    
+    #content3,#content2,#content1{
+        display: none;
+    }
+    .item{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        background-color:#323232;
+        color: white;
+        padding: 15px 20px;
+    }
+    
+      
+       
+       /* blog-heading */
+       .blog-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:10px;
+        padding-top: 10px;
+       
+    }
+    .know-more-button {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    .bth5 a{
+        font-size: 16px;
+    }
+       
+       
+    
+    
+}

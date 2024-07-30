@@ -1,0 +1,968 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navpart */
+.navbar{
+	
+	
+	position:-webkit-sticky;
+	
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    background-color: #f49921 !important;
+    /* transition: 0.3s; */
+    transform: translateX(-20px,20px);
+    transition: all 0.5s ease;
+
+  }
+
+.navbar-brand img{
+    width: 60px;
+} 
+.navbar-nav .nav-item{
+    margin-left:30px;
+}
+.active{
+    position: relative;
+    color: #da1a5d!important;
+}
+
+.nav-link:hover{
+    color: #da1a5d!important;
+}
+.nav-link{
+    font-family: "poppins";
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.s2{
+  
+ font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+}
+
+
+.dropdown-item{
+    font-size: 18px;
+    font-family: "poppins";
+    text-transform: uppercase;
+    
+   
+}
+.dropdown-item:hover{
+    color: #da1a5d !important;
+}
+/* banner part */
+.banner1{
+    background-image:linear-gradient(to right, rgba(255, 182, 193, 0.5), rgba(255, 105, 180, 0.5)), url("../Images/activity.jpeg");
+    background-size:cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    /* filter: grayscale(100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.donate-button{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: #da1a5d;
+}
+.donate-button:hover {
+    background-color:#f49921;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+.btn7{
+    text-align: center;
+}
+.banner-text .p27{
+    font-size: 50px;
+    color:white;
+    font-family: "coda";
+    letter-spacing:1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+/* activity-gallery */
+.activity-gallery{
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.img-text{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#cacaca;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px ;
+   
+
+}
+.img-part{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+   
+}
+.ac-gallary img{
+    width: 400px;
+    height: 290px;
+    border-radius: 10px 10px 0 0;
+    transition: 0.5s;
+    transform: scale(1.1);
+    /* opacity: 0.7; */
+}
+.img-part:hover img{
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+.ac-date{
+    width: 100%;
+    height: 80px;
+position: absolute;
+bottom: 100%;
+text-align: center;
+color: #fff;
+font-size: 20px;
+transition: 0.5s;
+background-color: rgba(255, 182, 193, 0.8);
+font-weight: 600;
+padding: 10px;
+
+}
+.img-part:hover .ac-date{
+    bottom: 0%;
+    transition: 0.5s;
+
+}
+/* bottom: 0%;
+transition: 0.5s;
+} */
+.upper,.middile{
+    margin-bottom:30px;
+}
+.ac-content{
+    padding: 10px 15px;
+}
+.p30{
+    font-family: "poppins";
+    color: white;
+    font-size: 16px;
+}
+.p31{
+    font-family: "coda";
+    font-size: 20px;
+    color: black;
+}
+.p32{
+    font-family: "philosopher";
+    font-size: 18px;
+    color: black;
+}
+.p33{
+    font-family: "poppins";
+    font-size: 16px;
+    color: black;
+}
+/* .img-text:hover{
+    transform: scale(1.1);
+    transition:all 0,3s ease-in-out;
+    filter: blur(10%);
+   
+} */
+
+/* footer */
+.footer{
+    background-color: #f49921;
+    padding-top: 50px;
+    border-top:2px solid #da1a5d;
+}
+.s11,.s13,.s23,.s19{
+    font-weight: 400;
+    font-family: "coda";
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+ .s12{
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+   
+
+}
+.text1{
+    margin-bottom:20px ;
+}
+.input-row input{
+    width: 70%;
+    border: none;
+    background-color: #cacaca;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 20px;
+    text-indent: 10px;
+
+}
+input::placeholder{
+    font-size: 14px;
+    font-family: "poppins";
+}
+.btn5{
+    margin-bottom:50px;
+}
+.btn5 a{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.s14{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    padding-bottom:5px;
+}
+.s15{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    padding-bottom:5px;
+}
+.s16{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    padding-bottom:5px;
+}
+.text2{
+    position: relative;
+    margin-bottom: 15px;
+}
+.text2::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -2px;
+    width:100%;
+    height: 1px;
+    background-color:black;
+}
+
+.s18{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.ac-2{
+    position: relative;
+    margin-bottom: 15px;
+}
+.ac-2::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -2px;
+    width:100%;
+    height: 2px;
+    background-color:black;
+
+}
+.s20{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400
+    ;
+}
+.s21,.s22,.so{
+    font-size:16px ;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.know-more-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color:#da1a5d;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+.know-more-button:hover {
+    background-color:#f49921;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+.recent-activities,.post{
+    display: flex;
+    flex-direction: column;
+}
+.ac-2{
+    width: 65%;
+}
+.text2{
+    width: 65%;
+}
+
+/* activity heading */
+.activity-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+.ac-heading{
+    width: 15%;
+    height: 50px;
+    background-color: #da1a5d;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.p28{
+    font-family: "coda";
+    font-size: 30px;
+    color: white;
+}
+.p29{
+    font-size: 25px;
+    font-family: "philosopher";
+    color: black;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.middile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+/* footer-last */
+.f-text{
+    display: flex;
+    justify-content: center;
+    background-color: #da1a5d;
+    padding: 20px 0px;
+}
+.s27{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: white;
+}
+/* media part */
+@media screen and (max-width:1440px) {
+    /* activity heading */
+    .activity-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+       
+    }
+    .ac-heading{
+        width: 20%;
+        height: 50px;
+        background-color: #da1a5d;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .p28{
+        font-family: "coda";
+        font-size: 30px;
+        color: white;
+    }
+    .p29{
+        font-size: 25px;
+        font-family: "philosopher";
+        color: black;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        
+    }
+    /* activity */
+    .activity-gallery{
+        margin-bottom:50px;
+        padding-top: 25px;
+    }
+    .img-text{
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#cacaca;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px ;
+       
+    
+    }
+    .img-part{
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+       
+    }
+    .ac-gallary img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px 10px 0 0;
+        transition: 0.5s;
+        transform: scale(1.1);
+       
+    }
+    .img-part:hover img{
+        transform: scale(1.0);
+        transition: 0.5s;
+    }
+    .ac-date{
+        width: 100%;
+        height: 70px;
+      position: absolute;
+       bottom: 100%;
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      transition: 0.5s;
+      background-color: rgba(255, 182, 193, 0.8);
+      font-weight: 600;
+      padding: 10px;
+    
+    }
+    
+    .upper,.middile{
+        margin-bottom:30px;
+    }
+    .ac-content{
+        padding: 10px 15px;
+    }
+    .p30{
+        font-family: "poppins";
+        color: white;
+    }
+    .p31{
+        font-family: "coda";
+        font-size: 14px;
+        color: black;
+    }
+    .p32{
+        font-family: "philosopher";
+        font-size: 16px;
+        color: black;
+    }
+    .p33{
+        font-family: "poppins";
+        font-size: 12px;
+        color: black;
+    }
+    
+    /* acivity galley */
+    .lower{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+    .upper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .middile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    /* footer */
+    .recent-activities,.post{
+        display: flex;
+        flex-direction: column;
+    }
+    .ac-2{
+        width: 75%;
+    }
+    .text2{
+        width: 75%;
+    }
+    .s12,.s14,.s18{
+        font-size: 14px;
+    }
+    .s22,.s21,.s20{
+        font-size: 14px;
+    }
+    
+    
+    
+}
+@media screen and (max-width:1199px) {
+    .banner{
+        background-image: url("../Images/activity.jpeg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-text .p27{
+        font-size:40px;
+        color: white;
+        font-family: "coda";
+        letter-spacing:2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-weight: 500;
+        text-transform: uppercase;
+        
+        
+    }
+  
+     /* activity heading */
+     .activity-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+       
+    }
+    .ac-heading{
+        width: 25%;
+        height: 50px;
+        background-color: #da1a5d;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .p28{
+        font-family: "coda";
+        font-size: 28px;
+        color: white;
+    }
+    .p29{
+        font-size: 25px;
+        font-family: "philosopher";
+        color: black;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        
+    }
+    /* acivity galley */
+    .lower{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+    .upper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .middile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+      /* footer part */
+      .s20,.s21,.s22{
+        font-size: 12px;
+    }
+    .s18,.s14,.s12{
+        font-size: 12px;
+    }
+    .footer{
+        padding-top: 30px;
+    }
+    .btn5{
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .banner1{
+        background-image: url("../Images/activity.jpeg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-text .p27{
+        font-size:30px;
+        color: wheat;
+        font-family: "coda";
+        letter-spacing:2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-weight: 500;
+        text-transform: uppercase;
+        
+        
+    }
+    /* activity heading */
+    .activity-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+       
+    }
+   
+    .ac-heading{
+        width:35%;
+        height: 50px;
+        background-color: #da1a5d;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .p28{
+        font-family: "coda";
+        font-size: 28px;
+        color: white;
+    }
+    .p29{
+        font-size: 25px;
+        font-family: "philosopher";
+        color: black;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        
+    }
+    /* footer part */
+    .recent-activities{
+        margin-bottom: 20px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    /* banner part */
+    .banner1{
+        background-image: url("../Images/activity.jpeg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-text .p27{
+        font-size:25px;
+        color: white;
+        font-family: "coda";
+        letter-spacing:2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+     /* activity heading */
+     .activity-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+       
+    }
+    .ac-heading{
+        width:45%;
+        height: 40px;
+        background-color: #da1a5d;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .p28{
+        font-family: "coda";
+        font-size: 23px;
+        color: white;
+    }
+    .p29{
+        font-size: 20px;
+        font-family: "philosopher";
+        color: black;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        
+    }
+     /* footer-last-part */
+     .s27{
+        font-size: 13px;
+        text-align: center;
+    
+       }
+       /* /activity gallery */ 
+       .img-text{
+        width:350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#cacaca;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px ;
+       
+    
+    }
+    .img-part{
+        position: relative;
+        text-align: center;
+       
+    }
+    .ac-gallary img{
+        width: 350px;
+        height: 250px;
+        border-radius: 10px 10px 0 0;
+        opacity: 1;
+    }
+    .p30{
+        font-family: "poppins";
+        color: white;
+    }
+    .p31{
+        font-family: "coda";
+        font-size: 14px;
+        color: black;
+    }
+    .p32{
+        font-family: "philosopher";
+        font-size: 16px;
+        color: black;
+    }
+    .p33{
+        font-family: "poppins";
+        font-size: 12px;
+        color: black;
+    }
+    .know-more-button {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    .btn7 a{
+        font-size: 16px;
+     }
+     .btn5 a{
+        font-size: 16px;
+     }
+    
+}
+@media screen and (max-width:575px) {
+    /* banner part */
+    .banner1{
+        background-image: url("../Images/activity.jpeg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-text .p27{
+        font-size:20px;
+        color: white;
+        font-family: "coda";
+        letter-spacing:2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+     /* activity heading */
+     .activity-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+       
+    }
+    .ac-heading{
+        width:55%;
+        height: 30px;
+        background-color: #da1a5d;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .p28{
+        font-family: "coda";
+        font-size: 20px;
+        color: white;
+    }
+    .p29{
+        font-size: 15px;
+        font-family: "philosopher";
+        color:black;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        
+    }
+    
+      /* footer part */
+      .text2{
+        position: static;
+        margin-bottom: 0px;
+    }
+    
+    .ac-2{
+        position: static;
+        margin-bottom: 0px;
+    }
+    
+    .post{
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .post::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        background-color: black;
+        width: 100%;
+        height: 1px;
+    }
+    .recent-activities{
+        position: relative;
+    }
+    .recent-activities::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        background-color: black;
+        width: 100%;
+        height: 1px;
+    }
+    .address{
+        margin-bottom: 20px;
+    }
+    /* footer -last -part */
+    .s27{
+        font-size: 9px;
+    }
+    /* activity gallery */
+    .img-text{
+        width:250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#cacaca;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px ;
+       
+    
+    }
+    .img-part{
+        position: relative;
+        text-align: center;
+       
+    }
+    .ac-gallary img{
+        width: 250px;
+        height: 200px;
+        border-radius: 10px 10px 0 0;
+       
+    }
+    .p30{
+        font-family: "poppins";
+        color: white;
+    }
+    .p31{
+        font-family: "coda";
+        font-size: 16px;
+        color: black;
+    }
+    .p32{
+        font-family: "philosopher";
+        font-size: 12px;
+        color: black;
+    }
+    .p33{
+        font-family: "poppins";
+        font-size: 10px;
+        color: black;
+    }
+    .know-more-button {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color:#da1a5d;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    .btn7 a{
+        font-size: 16px;
+     }
+     .btn5 a{
+        font-size: 16px;
+     }
+    
+}
